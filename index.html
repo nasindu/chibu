@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+   <title>Home-SHARON</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Challenge 1: Your Age in Days</h2>
+        <div class="welcome">
+            <div>
+                <button type="button" class="btn btn-primary" onclick="ageInDays()" >Click Me</button> 
+            </div>
+            <div>
+                <button type="button" class="btn btn-danger" onclick="reset()">Reset</button> 
+            </div>
+        </div>
+
+       <div class="welcome">
+            <div id ="flex-box-result"></div>
+       </div>
+    </div>
+    <div class="container-2">
+        <h2>Challenge 2: Cat Generator</h2>
+        <div class="mama">
+            <div>
+                <button class="btn btn-success" id="cat-generaor" onclick="generateCat()">Generate Cat</button>
+            </div>
+       </div> 
+       <div class="flex-box-container-2" id="flex-cat-gen">
+       </div> 
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
